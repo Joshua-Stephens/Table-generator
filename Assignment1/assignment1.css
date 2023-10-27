@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#table{
+    padding: 3px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 7px;
+}
+
+#smile{
+    width: 150px;
+}
+
+#numOfRows{
+    width: 20px;
+}
+
+#numOfColumns{
+    margin-top: 3px;
+    width: 20px;
+}
+
+td{
+    border: 2px solid black; 
+}

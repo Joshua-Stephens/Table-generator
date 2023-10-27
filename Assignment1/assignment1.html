@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="assignment1.css">
+
+</head>
+<body>
+
+    <h1>Assignment 01 COMP125 Client-Side Web Development</h1>
+
+    <p>Please, type the size of the desired table and click the Create button.</p>
+    
+    <label>Number of Rows:</label>
+    <input id="numOfRows"/><br>
+    <label>Number of Columns:</label>
+    <input id="numOfColumns"/><br> 
+    <button onClick="createTable(document.getElementById('numOfRows').value, document.getElementById('numOfColumns').value)" style="margin-top:5px;">Create Table</button> <!-- Inline CSS should be external CSS file -->
+    <br>
+    <table id="table"></table>
+    
+
+   
+
+   
+    <footer>
+        <img id ="smile" src="thumbs-up.png" alt="Smiley Face">
+        <h6>&copy;&nbsp;Copyright Joshua A. Stephens - COMP125 - Semester 2 Winter 2023</h6>
+    </footer>
+    <script src="assignment1.js"></script>
+</body>
+</html>
